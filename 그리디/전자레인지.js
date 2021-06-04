@@ -3,7 +3,7 @@ const input = fs.readFileSync("/dev/stdin").toString().split(" ");
 
 const second = parseInt(input[0]);
 
-function minBtn (second) {
+function minBtn(second) {
     const btnTime = [300, 60, 10];
     const btnCount = [];
     
